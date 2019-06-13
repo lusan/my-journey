@@ -17,6 +17,18 @@ class MyDocument extends Document {
           />
           {/* PWA primary color */}
           <meta name="theme-color" content={theme.palette.primary.main} />
+
+          <meta name="title" content="Lusan Das - My Journey" />
+          <meta name="description" content="This site is about my journey in web industry. I will post about the latest tech articles/blogs, projects and workshops I conduct. " />
+          <meta name="keywords" content="lusandas, lusan, daslusan, das, reactjs, javascript" />
+          <meta name="robots" content="index, follow" />
+          <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+          <meta name="language" content="English" />
+
+          <link rel="apple-touch-icon" sizes="180x180" href="/static/favicon_io/apple-touch-icon.png" />
+          <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon_io/favicon-32x32.png" />
+          <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon_io/favicon-16x16.png" />
+          <link rel="manifest" href="/static/favicon_io/site.webmanifest" />
           <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
