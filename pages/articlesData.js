@@ -28,6 +28,12 @@ const articlesData = [
     heading: 'How to use Redux Observable to simplify the architecture',
     content: 'There was a serious flaw in the architecture. My actions were not clean anymore. All the complicated logic was built in my actions. Although it was easier to track changes through action types, but I was unable to prevent my actions from getting polluted. I was obsessed with keeping everything simple and clean.',
     link: 'https://codeburst.io/redux-observable-to-the-rescue-b27f07406cf2'
+  },
+  {
+    id: 6,
+    heading: 'How to build WebApp for the future',
+    content: 'Ever since the inception of Progressive Web App (PWA), I was obsessed with building a super fast webapp, after few months of rigorous development we launched our company’s first ever mobile webapp, LifCare Lite, so I would like to share some of my experience while building it.',
+    link: 'https://codeburst.io/building-webapp-for-the-future-68d69054cbbd'
   }
 ]
 

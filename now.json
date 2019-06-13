@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "alias": "my-aliased-journey",
+  "name": "my-journey",
+  "builds": [
+    { "src": "next.config.js", "use": "@now/next" }
+  ]
+}
