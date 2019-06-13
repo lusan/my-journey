@@ -2,6 +2,8 @@
 
 My personal website for documenting my journey as a software engineer.
 
+[lusandas.com](https://lusandas.com)
+
 ## Introduction
 
 Install it and run:

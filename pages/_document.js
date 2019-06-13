@@ -24,11 +24,26 @@ class MyDocument extends Document {
           <meta name="robots" content="index, follow" />
           <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
           <meta name="language" content="English" />
-
           <link rel="apple-touch-icon" sizes="180x180" href="/static/favicon_io/apple-touch-icon.png" />
           <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon_io/favicon-32x32.png" />
           <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon_io/favicon-16x16.png" />
           <link rel="manifest" href="/static/favicon_io/site.webmanifest" />
+
+          {/* <!-- Open Graph / Facebook --> */}
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://lusandas.com/" />
+          <meta property="og:title" content="Lusan Das - My Journey" />
+          <meta property="og:description" content="This site is about my journey in web industry. I will post about the latest tech articles/blogs, projects and workshops I conduct. " />
+          <meta property="og:image" content="/static/socialshare.jpg" />
+
+          {/* <!-- Twitter --> */}
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta property="twitter:url" content="https://lusandas.com/" />
+          <meta property="twitter:title" content="Lusan Das - My Journey" />
+          <meta property="twitter:description" content="This site is about my journey in web industry. I will post about the latest tech articles/blogs, projects and workshops I conduct. " />
+          <meta property="twitter:image" content="/static/socialshare.jpg" />
+
+
           <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"

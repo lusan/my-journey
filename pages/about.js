@@ -50,7 +50,7 @@ export default function About() {
         <Typography  align="left" paragraph>
           Soon after that I went on to join another startup LifeCare Health (earlier LifCare), where I was the first engineer.
           After a year of building products from scratch like Desktop and mobile site, CRM, Order management tool and many other,
-          we eventually raised a funding of 11 million USD. This was a fairy tail journey indeed.
+          we eventually raised a funding of 11 million USD. This was a fairytale journey indeed.
 
           <br />Find more details here <a
             href="https://www.thehindubusinessline.com/news/lifcare-raises-11-million-in-series-b-funding/article24505755.ece"
