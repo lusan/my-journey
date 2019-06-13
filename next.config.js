@@ -1,3 +1,4 @@
 module.exports = {
-  target: 'serverless'
+  target: 'serverless',
+  experimental: { autoExport: true }
 }
