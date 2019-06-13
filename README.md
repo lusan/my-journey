@@ -1,5 +1,7 @@
 # My personal Website
 
+My personal website for documenting my journey as a software engineer.
+
 ## Introduction
 
 Install it and run:
