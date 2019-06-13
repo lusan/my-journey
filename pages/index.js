@@ -58,12 +58,12 @@ export default function Album() {
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justify="center">
                 <Grid item>
-                  <Button variant="contained" color="primary">
+                  <Button variant="contained" color="primary" href="https://twitter.com/daslusan">
                     Twitter
                   </Button>
                 </Grid>
                 <Grid item>
-                  <Button variant="outlined" color="primary">
+                  <Button variant="outlined" color="primary" href="https://www.linkedin.com/in/lusandas">
                     Linkedin
                   </Button>
                 </Grid>
@@ -82,7 +82,7 @@ export default function Album() {
                 <Card className={classes.card}>
                   <CardMedia
                     className={classes.cardMedia}
-                    image="https://source.unsplash.com/random"
+                    image={`/static/${card.image}`}
                     title="Image title"
                   />
                   <CardContent className={classes.cardContent}>
