@@ -15,6 +15,7 @@ const useStyles = makeStyles(theme => ({
   main: {
     maxWidth: '800px',
     margin: '20px auto',
+    padding: '20px'
   }
 }));
 
@@ -60,7 +61,7 @@ export default function About() {
           </a>
         </Typography>
         <Typography  align="left" paragraph>
-          Eventually, I went on to join billion dollar e-commerce startup Paytm, where I introduced effecient techniques using Redux.
+          Eventually, I went on to join unicorn e-commerce startup Paytm, where I introduced effecient techniques using Redux.
           I also helped in impoving the page load time, by introducing effecient service worker strategies and revamped various important pages from scratch
           creating positive impact on millions of users.
 

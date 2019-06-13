@@ -94,7 +94,7 @@ export default function Album() {
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <a href="google.com" title={card.heading} target="_blank">
+                    <a href={card.link} title={card.heading} target="_blank">
                       <Button size="small" color="primary">
                         View
                       </Button>

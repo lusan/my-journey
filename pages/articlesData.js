@@ -10,6 +10,24 @@ const articlesData = [
     heading: 'How to write code you will love in the future',
     content: 'Uncle Ben once told Peter Parker, “With great power comes great responsibility”. This quote applies to fellow programmers who are involved in building projects. Being in the industry for over 5 years has made me reflect on my experiences so far, and it is time I give back to the community.',
     link: 'https://www.freecodecamp.org/news/how-to-write-code-you-will-love-in-the-future-ee5decae5ce4/?source=---------2------------------'
+  },
+  {
+    id: 3,
+    heading: 'How to use Redux Persist when migrating your states',
+    content: 'Storage has always been an integral part of building apps. While building a webapp for our company, I needed a way to persist my states in storage which was reliable, easy to use, and configurable based on the requirements.',
+    link: 'https://www.freecodecamp.org/news/how-to-use-redux-persist-when-migrating-your-states-a5dee16b5ead/'
+  },
+  {
+    id: 4,
+    heading: 'The Story of requesting twice - CORS',
+    content: 'While working on a feature, I decided to look at the network tab and observed that the first request was sent with method OPTIONS, and the following request after it was the request with the correct method eg GET, POST etc, which is returning the expected payload. Basically two calls for the same request.',
+    link: 'https://www.freecodecamp.org/news/the-story-of-requesting-twice-cors/'
+  },
+  {
+    id: 5,
+    heading: 'How to use Redux Observable to simplify the architecture',
+    content: 'There was a serious flaw in the architecture. My actions were not clean anymore. All the complicated logic was built in my actions. Although it was easier to track changes through action types, but I was unable to prevent my actions from getting polluted. I was obsessed with keeping everything simple and clean.',
+    link: 'https://codeburst.io/redux-observable-to-the-rescue-b27f07406cf2'
   }
 ]
 
