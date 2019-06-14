@@ -9,8 +9,15 @@ My personal website for documenting my journey as a software engineer.
 Install it and run:
 
 ```sh
-npm install
-npm run dev
+yarn install
+yarn dev
+```
+
+For running the production build
+
+```
+yarn build
+yarn start
 ```
 
 ## The idea behind the example
