@@ -11,7 +11,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Header from '../src/components/Header';
 import Footer from '../src/components/Footer';
-import articleData from './articlesData';
+import articleData from '../src/articlesData';
 
 const useStyles = makeStyles(theme => ({
   heroContent: {
