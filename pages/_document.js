@@ -15,6 +15,10 @@ class MyDocument extends Document {
             name="viewport"
             content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"
           />
+          <meta
+            name="google-site-verification"
+            content="O1omSIMYiy4BOuq4GrmkXEEyufQA_PSTeUoXaRptSZs"
+          />
           {/* PWA primary color */}
           <meta name="theme-color" content={theme.palette.primary.main} />
 
