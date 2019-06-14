@@ -83,8 +83,8 @@ export default function About() {
         </Typography>
         <Typography align="left" paragraph>
           Eventually, I went on to join unicorn e-commerce startup Paytm, where
-          I introduced effecient techniques using Redux. I also helped in
-          impoving the page load time, by introducing effecient service worker
+          I introduced efficient techniques using Redux. I also helped in
+          impoving the page load time, by introducing efficient service worker
           strategies and revamped various important pages from scratch creating
           positive impact on millions of users.
           <br />
