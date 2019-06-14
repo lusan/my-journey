@@ -1,8 +1,8 @@
-import React from 'react';
-import Document, { Head, Main, NextScript } from 'next/document';
-import { ServerStyleSheets } from '@material-ui/styles';
-import flush from 'styled-jsx/server';
-import theme from '../src/theme';
+import React from "react";
+import Document, { Head, Main, NextScript } from "next/document";
+import { ServerStyleSheets } from "@material-ui/styles";
+import flush from "styled-jsx/server";
+import theme from "../src/theme";
 
 class MyDocument extends Document {
   render() {
@@ -19,30 +19,55 @@ class MyDocument extends Document {
           <meta name="theme-color" content={theme.palette.primary.main} />
 
           <meta name="title" content="Lusan Das - My Journey" />
-          <meta name="description" content="This site is about my journey in web industry. I will post about the latest tech articles/blogs, projects and workshops I conduct. " />
-          <meta name="keywords" content="lusandas, lusan, daslusan, das, reactjs, javascript" />
+          <meta
+            name="description"
+            content="This site is about my journey in web industry. I will post about the latest tech articles/blogs, projects and workshops I conduct. "
+          />
+          <meta
+            name="keywords"
+            content="lusandas, lusan, daslusan, das, reactjs, javascript"
+          />
           <meta name="robots" content="index, follow" />
           <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
           <meta name="language" content="English" />
-          <link rel="apple-touch-icon" sizes="180x180" href="/static/favicon_io/apple-touch-icon.png" />
-          <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon_io/favicon-32x32.png" />
-          <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon_io/favicon-16x16.png" />
+          <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/static/favicon_io/apple-touch-icon.png"
+          />
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/static/favicon_io/favicon-32x32.png"
+          />
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/static/favicon_io/favicon-16x16.png"
+          />
           <link rel="manifest" href="/static/favicon_io/site.webmanifest" />
 
           {/* <!-- Open Graph / Facebook --> */}
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://lusandas.com/" />
           <meta property="og:title" content="Lusan Das - My Journey" />
-          <meta property="og:description" content="This site is about my journey in web industry. I will post about the latest tech articles/blogs, projects and workshops I conduct. " />
+          <meta
+            property="og:description"
+            content="This site is about my journey in web industry. I will post about the latest tech articles/blogs, projects and workshops I conduct. "
+          />
           <meta property="og:image" content="/static/socialshare.jpg" />
 
           {/* <!-- Twitter --> */}
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://lusandas.com/" />
           <meta property="twitter:title" content="Lusan Das - My Journey" />
-          <meta property="twitter:description" content="This site is about my journey in web industry. I will post about the latest tech articles/blogs, projects and workshops I conduct. " />
+          <meta
+            property="twitter:description"
+            content="This site is about my journey in web industry. I will post about the latest tech articles/blogs, projects and workshops I conduct. "
+          />
           <meta property="twitter:image" content="/static/socialshare.jpg" />
-
 
           <link
             rel="stylesheet"
@@ -87,7 +112,7 @@ MyDocument.getInitialProps = async ctx => {
 
   ctx.renderPage = () =>
     originalRenderPage({
-      enhanceApp: App => props => sheets.collect(<App {...props} />),
+      enhanceApp: App => props => sheets.collect(<App {...props} />)
     });
 
   const initialProps = await Document.getInitialProps(ctx);
@@ -100,7 +125,7 @@ MyDocument.getInitialProps = async ctx => {
         {sheets.getStyleElement()}
         {flush() || null}
       </React.Fragment>
-    ),
+    )
   };
 };
 
