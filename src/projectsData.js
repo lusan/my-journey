@@ -2,7 +2,15 @@ const projectsData = [
   {
     id: 1,
     image: "paytmmall.jpg",
-    heading: "Paytm Mall Desktop/Mweb PWA",
+    heading: "Paytm Mall Desktop PWA",
+    content:
+      "I rebuilt the order summary flow and grid page flow, which helped improve our traffic and user experience creating positive impact on millions of user. \r\n\r\nI also successfully implemented service worker strategies to precache assets along with few pages to improve user experience in limited network areas.\r\n\r\nSkills Used: React with Redux, webpack, HTML5, CSS3/SASS\r\n",
+    link: "https://paytmmall.com/"
+  },
+  {
+    id: 1,
+    image: "paytmmall.jpg",
+    heading: "Paytm Mall Mobile PWA",
     content:
       "I rebuilt the order summary flow and grid page flow, which helped improve our traffic and user experience creating positive impact on millions of user. \r\n\r\nI also successfully implemented service worker strategies to precache assets along with few pages to improve user experience in limited network areas.\r\n\r\nSkills Used: React with Redux, webpack, HTML5, CSS3/SASS\r\n",
     link: "https://paytmmall.com/"
