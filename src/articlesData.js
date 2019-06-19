@@ -10,12 +10,12 @@ const articlesData = [
   },
   {
     id: 2,
-    image: "goodcode.jpg",
-    heading: "How to write code you will love in the future",
+    image: "brain.jpg",
+    heading: "The best way to architect your Redux app",
     content:
-      "Uncle Ben once told Peter Parker, “With great power comes great responsibility”. This quote applies to fellow programmers who are involved in building projects. Being in the industry for over 5 years has made me reflect on my experiences so far, and it is time I give back to the community.",
+      "This article is about how to think in Redux. We’ll try to understand how we can utilise this wonderful library to make our application more stable, robust, and maintainable. It is language agnostic, however we will keep our scope to Redux with React.",
     link:
-      "https://www.freecodecamp.org/news/how-to-write-code-you-will-love-in-the-future-ee5decae5ce4/?source=---------2------------------"
+      "https://www.freecodecamp.org/news/the-best-way-to-architect-your-redux-app-ad9bd16c8e2d/"
   },
   {
     id: 3,
@@ -45,6 +45,15 @@ const articlesData = [
   },
   {
     id: 6,
+    image: "goodcode.jpg",
+    heading: "How to write code you will love in the future",
+    content:
+      "Uncle Ben once told Peter Parker, “With great power comes great responsibility”. This quote applies to fellow programmers who are involved in building projects. Being in the industry for over 5 years has made me reflect on my experiences so far, and it is time I give back to the community.",
+    link:
+      "https://www.freecodecamp.org/news/how-to-write-code-you-will-love-in-the-future-ee5decae5ce4/?source=---------2------------------"
+  },
+  {
+    id: 7,
     image: "suspense.jpg",
     heading: "How to build WebApp for the future",
     content:
