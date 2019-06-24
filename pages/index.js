@@ -88,6 +88,15 @@ export default function Album() {
                     Linkedin
                   </Button>
                 </Grid>
+                <Grid item>
+                  <Button
+                    variant="outlined"
+                    color="primary"
+                    href="https://medium.com/@daslusan"
+                  >
+                    Medium
+                  </Button>
+                </Grid>
               </Grid>
             </div>
           </Container>
