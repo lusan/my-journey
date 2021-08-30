@@ -26,12 +26,12 @@ export default function Header() {
         <Link href="/">
           <Button>Lusan Das</Button>
         </Link>
-        <Link href="/projects">
+{/*        <Link href="/projects">
           <Button>Projects</Button>
         </Link>
         <Link href="/about">
           <Button>About</Button>
-        </Link>
+        </Link>*/}
       </Toolbar>
     </AppBar>
   );
